@@ -1,0 +1,6 @@
+- id: shellcheck
+  name: Shell Check
+  description: Check Shell Syntax on ALL staged files with user friendly messages and colors
+  entry: shell-lint.sh
+  language: script
+  types: [shell]
